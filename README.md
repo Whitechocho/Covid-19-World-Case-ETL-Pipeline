@@ -17,6 +17,8 @@ The load phase involved loading the transformed data into AWS S3, a cloud storag
 
 To further illustrate my work on the Covid-19-World-Case-ETL-Pipeline, I have included a visual representation of the ETL schemes I used to extract, transform, and load the data related to the global spread of Covid-19. By implementing the ETL pipeline, I could extract data from a publicly available API, transform the raw data into multiple tables, and load the transformed data into AWS S3. The loaded data was then accessible for further analysis, and I utilized my expertise in uploading the data into PostgreSQL for analytical purposes. This demonstrated my ability to extract and process data and store and analyze it for valuable insights and decision-making.
 
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/56055678/218787309-d193e28c-4a6b-4042-8b20-05be42c639d0.png" width="700">
+</p>
 
 This project allowed me to further enhance my data engineering skills, particularly in the areas of data extraction, transformation, and loading. As the importance of data in decision making continues to grow, I am confident that these skills will be highly-valuable in my future endeavors. I am eager to apply my knowledge and expertise to new and challenging projects, and I am confident that I have the skills and experience needed to succeed.
