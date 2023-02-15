@@ -10,8 +10,8 @@ from datetime import datetime
 def extract_data():
     # Send a GET request to the API
     headers = {
-        "X-RapidAPI-Key": "616d1fd030mshd53e7e8b595f54bp1da6c0jsn17ee16e2d9a0",
-        "X-RapidAPI-Host": "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com"
+        "X-RapidAPI-Key": "**********************",
+        "X-RapidAPI-Host": "**********************"
     }
     response = requests.request("GET", "https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/", headers=headers)
     json_data = response.json()
@@ -82,8 +82,8 @@ def transform_data(json_data):
 def load_data(cv19_country, cv19_metrics, cv19_case, cv19_population,json_data):
     # Creating a session to access Amazon S3
     session = boto3.Session(
-        aws_access_key_id="AKIAYSHNU62SBH73FOXP",
-        aws_secret_access_key="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"
+        aws_access_key_id="**********************",
+        aws_secret_access_key="**********************"
     )
     s3 = session.client("s3")
 
